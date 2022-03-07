@@ -24,8 +24,8 @@ const createDot = (x, y) => {
 }
 
 for(let i = 0; i < 9; i++) {
-    var randy = Math.floor(Math.random()*8)*10;
-    var randx = Math.floor(Math.random()*8)*10;
+    var randy = Math.floor(Math.random()*9)*10;
+    var randx = Math.floor(Math.random()*9)*10;
     var randlink = Math.floor(Math.random()*8);
 
     console.log(randlink)
